@@ -22,6 +22,8 @@ main .mask {
           mask-image: url("../assets/mask.svg");
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
+  -webkit-mask-size: 40px;
+          mask-size: 40px;
   background: #b91b1b;
   color: #000000;
 }
