@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: "Oswald", serif;
-  color: #ffffff;
-  background: #252525;
+  font-family: "Instrument Serif", serif;
+  color: #ff5227;
+  background: #fff6e6;
 }
 
 main {
@@ -25,8 +25,8 @@ main .mask {
           mask-repeat: no-repeat;
   -webkit-mask-size: 40px;
           mask-size: 40px;
-  background: #b91b1b;
-  color: #000000;
+  background: #ff5227;
+  color: #fff6e6;
 }
 main .textContainer {
   cursor: default;
