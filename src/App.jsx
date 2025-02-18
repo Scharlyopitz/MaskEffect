@@ -1,15 +1,30 @@
+import { useState } from "react";
 import useMouseMoove from "./components/useMouseMoove";
 import { motion as m } from "motion/react";
 
 export default function App() {
   const { x, y } = useMouseMoove();
 
-  const maskSize = 40;
+  const [hovered, setHovered] = useState(false);
+
+  const maskSize = hovered ? 400 : 40;
+
+  const onMouseEnter = () => {
+    setHovered(true);
+  };
+  const onMouseLeave = () => {
+    setHovered(false);
+  };
 
   return (
     <main>
       <div className="textContainer">
-        <p>Bienvenue sur la page d'accueil ici on test l'animation mask</p>
+        <p
+          onMouseEnter={() => onMouseEnter()}
+          onMouseLeave={() => onMouseLeave()}
+        >
+          Bienvenue sur la page d'accueil ici on test l'animation mask
+        </p>
       </div>
 
       <m.div
