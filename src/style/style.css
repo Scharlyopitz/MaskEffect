@@ -29,13 +29,14 @@ main .mask {
   color: #000000;
 }
 main .textContainer {
+  cursor: default;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
   height: 100%;
-  padding: 0 10vw;
+  padding: 0 30vw;
 }
 main .textContainer p {
   font-size: 3vw;
