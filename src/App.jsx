@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <main>
-      <div className="textContainer mask">
+      <div className="textContainer">
         <p>Bienvenue sur la page d'accueil ici on test l'animation mask</p>
       </div>
 

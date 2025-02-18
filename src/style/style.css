@@ -7,4 +7,34 @@
 
 body {
   font-family: "Quicksand", serif;
+  color: #ffffff;
+  background: #252525;
+}
+
+main {
+  height: 100vh;
+}
+main .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-mask-image: url("../assets/mask.svg");
+          mask-image: url("../assets/mask.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  background: #b91b1b;
+  color: #000000;
+}
+main .textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 10vw;
+}
+main .textContainer p {
+  font-size: 3vw;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
