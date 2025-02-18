@@ -1,11 +1,12 @@
 body {
-  font-family: "Quicksand", serif;
+  font-family: "Oswald", serif;
   color: #ffffff;
   background: #252525;
 }
 
 main {
   height: 100vh;
+
   .mask {
     position: absolute;
     top: 0;
@@ -15,6 +16,7 @@ main {
     background: #b91b1b;
     color: #000000;
   }
+
   .textContainer {
     display: flex;
     align-items: center;
