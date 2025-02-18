@@ -3,8 +3,6 @@ import useMouseMoove from "./components/useMouseMoove";
 export default function App() {
   const { x, y } = useMouseMoove();
 
-  console.log(x, y);
-
   return (
     <main>
       <div className="textContainer">
