@@ -4,6 +4,8 @@ import { motion as m } from "motion/react";
 export default function App() {
   const { x, y } = useMouseMoove();
 
+  const maskSize = 40;
+
   return (
     <main>
       <div className="textContainer">
@@ -12,7 +14,7 @@ export default function App() {
 
       <m.div
         animate={{
-          WebkitMaskPosition: `${x}px ${y}px`,
+          WebkitMaskPosition: `${x - maskSize / 2}px ${y - maskSize / 2}px`,
         }}
         transition={{ type: "tween", ease: "backOut" }}
         className="textContainer mask"
