@@ -23,7 +23,8 @@ export default function App() {
           onMouseEnter={() => onMouseEnter()}
           onMouseLeave={() => onMouseLeave()}
         >
-          Bienvenue sur la page d'accueil ici on test l'animation mask
+          Bienvenue sur la page d'accueil ici on test l'animation mask, suvolez
+          le texte pour l'activer.
         </p>
       </div>
 
