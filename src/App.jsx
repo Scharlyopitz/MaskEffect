@@ -24,7 +24,7 @@ export default function App() {
           onMouseLeave={() => onMouseLeave()}
         >
           Bienvenue sur la page d'accueil ici on test l'animation mask, suvolez
-          le texte pour l'activer.
+          le texte pour me découvrir.
         </p>
       </div>
 
@@ -36,7 +36,7 @@ export default function App() {
         transition={{ type: "tween", ease: "backOut" }}
         className="textContainer mask"
       >
-        <p>Révelation au survol du texte</p>
+        <p>Super vous m'avez découvert !</p>
       </m.div>
     </main>
   );
