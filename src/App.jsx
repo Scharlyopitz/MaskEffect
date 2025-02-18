@@ -30,6 +30,7 @@ export default function App() {
       <m.div
         animate={{
           WebkitMaskPosition: `${x - maskSize / 2}px ${y - maskSize / 2}px`,
+          WebkitMaskSize: `${maskSize}px`,
         }}
         transition={{ type: "tween", ease: "backOut" }}
         className="textContainer mask"
